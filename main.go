@@ -5,7 +5,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/YaroslavSivash/swagger/docs"
+	_ "github.com/YaroslavSivash/swagger"
+
 	echoSwagger "github.com/swaggo/echo-swagger"
 )
 
